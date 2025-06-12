@@ -14,6 +14,11 @@ Esta é uma aplicação web simples e responsiva para calcular o **Índice de Ma
 - 📱 **Design responsivo**, adaptado para celular e desktop.
 - 🌈 **Cores e emojis** que tornam a experiência mais visual e intuitiva.
 
+  ## 🛠️ Tecnologias utilizadas
+
+- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) — 
+- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) — 
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) — 
 ## 🛠️ Como Usar a Calculadora
 
 1. Digite sua **altura** em metros (exemplo: `1.75`).
