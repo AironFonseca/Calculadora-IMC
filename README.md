@@ -4,7 +4,7 @@ Esta é uma aplicação web simples e responsiva para calcular o **Índice de Ma
 
 ## 📸 Demonstração
 
-![Captura de Tela da Calculadora de IMC](screenshot.png) 
+![Captura de Tela da Calculadora de IMC](images/screenshot.png)
 
 ## 🚀 Funcionalidades
 
