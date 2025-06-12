@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora de IMC</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>💪 Calculadora de IMC</h1>
+    <p class="subtitulo">Descubra rapidamente seu Índice de Massa Corporal</p>
+
+    <div class="form-container">
+      <div class="inputs">
+        <label for="altura" class="sr-only">Altura (m)</label>
+        <input type="number" id="altura" step="0.01" placeholder="Altura (m)" aria-label="Digite sua altura em metros" />
+
+        <label for="peso" class="sr-only">Peso (kg)</label>
+        <input type="number" id="peso" step="0.1" placeholder="Peso (kg)" aria-label="Digite seu peso em quilogramas" />
+
+        <button onclick="calcularIMC()">Calcular</button>
+      </div>
+      <div class="resultado" id="resultado">
+        <p>IMC: --</p>
+        <p class="descricao">Classificação: --</p>
+      </div>
+    </div>
+
+    <hr class="linha" />
+    <h2>Faixas de IMC</h2>
+
+    <div class="faixas">
+      <div class="faixa azul">
+        <strong>Abaixo de 18,5</strong>
+        <span>Abaixo do peso</span>
+      </div>
+      <div class="faixa verde">
+        <strong>18,5 a 24,9</strong>
+        <span>Peso normal</span>
+      </div>
+      <div class="faixa amarelo">
+        <strong>25 a 29,9</strong>
+        <span>Acima do peso</span>
+      </div>
+      <div class="faixa laranja">
+        <strong>30 a 34,9</strong>
+        <span>Obeso</span>
+      </div>
+      <div class="faixa vermelho">
+        <strong>35 ou mais</strong>
+        <span>Obesidade Mórbida</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
