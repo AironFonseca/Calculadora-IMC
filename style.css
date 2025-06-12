@@ -178,7 +178,7 @@ button:active {
 
 /* Cores das Faixas */
 .azul      { background-color: #2196f3; } /* Azul mais vibrante */
-.verde     { background-color: #4caf50; } /* Verde padrão (já bom) */
+.verde     { background-color: #4caf50; } /* Verde padrão */
 .amarelo   { background-color: #ffc107; color: #333; } /* Amarelo mais intenso, texto escuro */
 .laranja   { background-color: #ff9800; } /* Laranja mais vibrante */
 .vermelho  { background-color: #f44336; } /* Vermelho mais vibrante */
@@ -245,10 +245,7 @@ button:active {
 /* Estilo para o valor do IMC no resultado */
 .imc-valor {
   font-weight: bold;
-  /* As cores serão aplicadas via JS, mas você pode ter um default aqui */
 }
-
-/* ... (seu CSS existente, incluindo as classes .azul, .verde, .amarelo, etc. para as faixas) ... */
 
 /* Estilos para a caixa de resultado dinâmico */
 .resultado-caixa {
@@ -297,15 +294,11 @@ button:active {
   font-weight: bold;
 }
 
-/* Ajustes no .resultado original para que os estilos de caixa se apliquem */
 .resultado {
-  /* Remova ou ajuste as propriedades de border-left e padding-left aqui se elas causarem conflito visual com a nova caixa */
-  /* Por exemplo, você pode querer remover a borda lateral quando a caixa tem cor */
   border-left: none; /* Remove a borda lateral original */
   padding-left: 0; /* Remove o padding lateral original */
 }
 
-/* Opcional: Ajuste o espaçamento interno dos parágrafos dentro da caixa de resultado */
 .resultado-caixa p {
   margin-bottom: 5px; /* Menor espaçamento entre os parágrafos */
 }
