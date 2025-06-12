@@ -22,8 +22,3 @@ Esta é uma aplicação web simples e responsiva para calcular o **Índice de Ma
 4. Veja seu **IMC** e a **classificação** (como "Peso normal", "Obeso", etc.).
 5. Consulte as **faixas de referência** exibidas abaixo para entender sua posição.
 
-## 💻 Como Executar Localmente
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/calculadora-imc.git
